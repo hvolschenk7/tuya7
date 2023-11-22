@@ -11,7 +11,7 @@ $config =
 [
 	'accessKey' 	=> 'xxxxxxxxxxxxxxxxx' ,
 	'secretKey' 	=> 'xxxxxxxxxxxxxxxxx' ,
-	'baseUrl'		=> 'https://openapi.tuyaus.com'
+	'baseUrl'	=> 'https://openapi.tuyaen.com'
 ];
 
 $tuya = new \tuyapiphp\TuyaApi( $config );
