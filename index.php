@@ -7,6 +7,14 @@ $messages = [
 ];
 
 shuffle($messages);
+$config =
+[
+	'accessKey' 	=> 'xxxxxxxxxxxxxxxxx' ,
+	'secretKey' 	=> 'xxxxxxxxxxxxxxxxx' ,
+	'baseUrl'		=> 'https://openapi.tuyaus.com'
+];
+
+$tuya = new \tuyapiphp\TuyaApi( $config );
 ?>
 <html>
 <head>
