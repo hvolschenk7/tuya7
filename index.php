@@ -15,6 +15,7 @@ $config =
 ];
 
 $tuya = new \tuyapiphp\TuyaApi( $config );
+$data = $tuya->token->get_new( );
 ?>
 <html>
 <head>
