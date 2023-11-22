@@ -9,8 +9,8 @@ $messages = [
 shuffle($messages);
 $config =
 [
-	'accessKey' 	=> 'xxxxxxxxxxxxxxxxx' ,
-	'secretKey' 	=> 'xxxxxxxxxxxxxxxxx' ,
+	'accessKey' 	=> 'ce7jmtq3werwpegkrtpp' ,
+	'secretKey' 	=> '56c1c0361f5f48a9834b5bae5b2aac5a',
 	'baseUrl'	=> 'https://openapi.tuyaen.com'
 ];
 
